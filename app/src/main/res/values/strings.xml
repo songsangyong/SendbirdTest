@@ -1,3 +1,5 @@
 <resources>
     <string name="app_name">SendbirdTest</string>
+    <string name="currentUser">TestUser1</string>
+    <string name="opponentUser">TestUser2</string>
 </resources>
