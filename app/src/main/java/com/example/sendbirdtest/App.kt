@@ -13,6 +13,7 @@ class App : Application() {
     lateinit var mCallback:(Boolean)->Unit
     override fun onCreate() {
         super.onCreate()
+        println("song")
         println("TEST")
         println("TEST")
         SendBird.init(APP_ID,applicationContext, true, object:InitResultHandler{
