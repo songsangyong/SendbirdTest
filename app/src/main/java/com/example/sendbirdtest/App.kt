@@ -14,6 +14,7 @@ class App : Application() {
     override fun onCreate() {
         super.onCreate()
         println("TEST")
+        println("TEST")
         SendBird.init(APP_ID,applicationContext, true, object:InitResultHandler{
             override fun onInitFailed(e: SendBirdException) {
                 mCallback.invoke(false)
