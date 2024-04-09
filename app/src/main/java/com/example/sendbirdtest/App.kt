@@ -13,7 +13,7 @@ class App : Application() {
     lateinit var mCallback:(Boolean)->Unit
     override fun onCreate() {
         super.onCreate()
-
+        println("TEST")
         SendBird.init(APP_ID,applicationContext, true, object:InitResultHandler{
             override fun onInitFailed(e: SendBirdException) {
                 mCallback.invoke(false)
